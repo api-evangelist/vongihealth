@@ -1,0 +1,56 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.slan-health.com/
+name: Vongi Health (芝兰健康) Conformance and Compliance
+description: Standards and certifications published by Hangzhou Zhilan Health (芝兰健康,
+  brand Vongi / Slan Health) on its official website. The company publishes an
+  enterprise-certificates section and a dated milestone timeline naming each
+  certification. Vongi Health publishes no public API developer surface, so
+  API-level standards (OAuth2, FHIR, etc.) have no evidence either way.
+standards:
+- id: iso-9001
+  name: GB/T19001-2016 / ISO 9001:2015 Quality Management System
+  conforms: true
+  evidence: 2023 milestone on homepage timeline states the company passed
+    GB/T19001-2016/ISO9001:2015 quality management system certification.
+- id: iso-13485
+  name: ISO 13485:2016 Medical Devices Quality Management System
+  conforms: true
+  evidence: 2023 milestone on homepage timeline states the company passed ISO
+    13485:2016 certification.
+- id: isms
+  name: Information Security Management System certification (信息安全管理体系认证)
+  conforms: true
+  evidence: 2023 milestone on homepage timeline states the company passed
+    information security management system certification.
+- id: pims
+  name: Privacy Information Management System certification (隐私信息管理体系认证)
+  conforms: true
+  evidence: 2023 milestone on homepage timeline states the company passed privacy
+    information management system certification.
+- id: itsms
+  name: IT Service Management System certification (信息技术服务管理体系认证)
+  conforms: true
+  evidence: 2023 milestone on homepage timeline states the company passed
+    information technology service management system certification.
+- id: nmpa-digital-therapeutic
+  name: NMPA medical-device certification of a digital therapeutic
+  conforms: true
+  evidence: Homepage states its hepatitis B mother-to-child transmission
+    prevention digital therapeutic (小贝壳) was China's first NMPA-certified digital
+    therapeutic (2019 milestone, "获批中国数字疗法第一证"), with a medical device
+    production license obtained in 2020.
+- id: internet-drug-information-service
+  name: China Internet Drug Information Service license
+  conforms: true
+  evidence: 'Site footer publishes license number (浙)-经营性-2021-0169 and ICP filing
+    浙ICP备17041394号-1.'
+- id: oauth2
+  name: OAuth 2.0
+  conforms: false
+  evidence: No public API or developer surface is published; no OAuth
+    documentation found.
+- id: rfc9457
+  name: RFC 9457 Problem Details
+  conforms: false
+  evidence: No public API is published, so no error-format evidence exists.

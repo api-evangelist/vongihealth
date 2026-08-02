@@ -1,7 +1,23 @@
 aid: vongihealth
-name: vongihealth
-description: vongihealth is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vongihealth.png
+name: Vongi Health (芝兰健康)
+description: Vongi Health (芝兰健康, Hangzhou Zhilan Health Co., Ltd., also branded Slan Health) is a Qiming
+  Venture Partners-backed Chinese digital therapeutics company founded in Hangzhou in 2015. Its hepatitis
+  B mother-to-child transmission prevention digital therapeutic (小贝壳) was the first digital therapeutic
+  certified by China's NMPA, and it also operates a sleep specialty (CBT-I) digital therapeutics platform
+  and a DTx CDMO business covering product R&D, clinical research, regulatory registration, and commercial
+  operations. The company publishes no public API or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/vongihealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Digital Therapeutics
+- Digital Health
+- Hepatitis B
+- Sleep
+- Medical Devices
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +45,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://vongihealth.com
+  url: https://www.slan-health.com/
+- type: Website
+  url: https://www.vongihealth.com/
+- type: Support
+  url: https://www.slan-health.com/contact-us.html
+- type: DomainSecurity
+  url: security/vongihealth-domain-security.yml
+- type: Conformance
+  url: conformance/vongihealth-conformance.yml
+- type: Compliance
+  url: conformance/vongihealth-conformance.yml
+- type: LLMsTxt
+  url: llms/vongihealth-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
