@@ -30,6 +30,9 @@ description: Vongi Health (芝兰健康, Hangzhou Zhilan Health Co., Ltd., also 
   and a DTx CDMO business covering product R&D, clinical research, regulatory registration, and commercial
   operations. The company publishes no public API or developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/vongihealth/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company publishes no public API or developer surface."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
